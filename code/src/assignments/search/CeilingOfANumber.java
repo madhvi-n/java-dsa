@@ -18,8 +18,13 @@ public class CeilingOfANumber {
         System.out.println(search(arr2, 17));
     }
 
-    // Returns index of ceil of a target
+    // Returns index of the smallest number greater than or equal to target
     static int ceil(int[] arr, int target) {
+        //Check if target is greater than last element
+        if (target > arr[arr.length - 1]) {
+            return -1;
+        }
+
         int start = 0;
         int end = arr.length - 1;
 
@@ -29,7 +34,7 @@ public class CeilingOfANumber {
             if(target == arr[mid]) {
                 return mid;
             }
-            
+
             if(target > arr[mid]) {
                 start = mid +1;
             } else {
