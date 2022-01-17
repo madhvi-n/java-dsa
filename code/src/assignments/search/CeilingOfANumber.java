@@ -26,6 +26,10 @@ public class CeilingOfANumber {
         while( start <= end) {
             int mid = start + (end - start) / 2;
 
+            if(target == arr[mid]) {
+                return mid;
+            }
+            
             if(target > arr[mid]) {
                 start = mid +1;
             } else {
