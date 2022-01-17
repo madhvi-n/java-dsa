@@ -10,8 +10,8 @@ public class FirstBadVersion {
         int end = n;
 
         while(start < end) {
-            mid =  start + (end - start) / 2;
-            check = isBadVersion(n);
+            int mid =  start + (end - start) / 2;
+            boolean check = isBadVersion(n);
             if(check) {
                 end = mid - 1;
             } else {
