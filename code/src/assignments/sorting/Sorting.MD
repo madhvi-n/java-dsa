@@ -6,7 +6,7 @@
 - [ ] Intersection of Two Arrays
 - [ ] Intersection of Two Arrays II
 - [ ] Third Maximum Number
-- [ ] Assign Cookies
+- [x] Assign Cookies
 - [ ] Array Partition I
 - [ ] Maximum Product of Three Numbers
 - [ ] Sort Array By Parity
@@ -46,4 +46,4 @@
 - [x] Find all Duplicates in an array
 
 ### Hard
-- [ ] First missing Positive
+- [x] First missing Positive
