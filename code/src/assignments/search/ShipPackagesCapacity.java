@@ -41,6 +41,5 @@ public class ShipPackagesCapacity {
             }
         }
         return end;
-
     }
 }
