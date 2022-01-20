@@ -45,5 +45,5 @@
 - [x] Find the Duplicate Number
 - [x] Find all Duplicates in an array
 
-###Hard
+### Hard
 - [ ] First missing Positive
