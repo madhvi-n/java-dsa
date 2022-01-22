@@ -323,7 +323,5 @@ public class StarPatterns {
         }
     }
 
-    static void pattern29(int n) {
-
-    }
+    static void pattern29(int n) {}
 }
