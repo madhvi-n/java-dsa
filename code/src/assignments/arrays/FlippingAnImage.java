@@ -13,19 +13,12 @@ public class FlippingAnImage {
 
     static int[][] flipImage(int[][] image) {
         for (int[] row: image) {
-            reverseArray(row);
-            for (int index = 0; index < row.length; index++) {
-                row[index] = row[index] ^ 1;
+            for (int i = 0; i < (image[0].length + 1) / 2; i++) {
+                int temp = row[i] ^ 1;
+                row[i] = row[image[0].length - i - 1] ^ 1;
+                row[image[0].length - i - 1] = temp;
             }
         }
         return image;
-    }
-
-    static void reverseArray(int[] arr) {
-        for (int i = 0; i < arr.length / 2; i++) {
-            int temp = arr[i];
-            arr[i] = arr[arr.length - i - 1];
-            arr[arr.length - i - 1] = temp;
-        }
     }
 }
