@@ -3,7 +3,6 @@ package assignments.arrays;
 //  https://leetcode.com/problems/spiral-matrix/
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class SpiralMatrixI {
     public static void main(String[] args) {
@@ -18,8 +17,8 @@ public class SpiralMatrixI {
                 {9, 10, 11, 12}
         };
 
-        System.out.println(Arrays.toString(new ArrayList[]{spiralMatrix(arr1)}));
-        System.out.println(Arrays.toString(new ArrayList[]{spiralMatrix(arr2)}));
+        System.out.println(spiralMatrix(arr1));
+        System.out.println(spiralMatrix(arr2));
     }
 
     static ArrayList<Integer> spiralMatrix(int[][] matrix) {
