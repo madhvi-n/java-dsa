@@ -20,8 +20,8 @@ public class AssignCookies {
         System.out.println(Arrays.toString(g));
         System.out.println(Arrays.toString(s));
 
-        for (int i = 0; i < s.length; i++) {
-            if(index < g.length && s[i] >= g[index]) {
+        for (int j : s) {
+            if (index < g.length && j >= g[index]) {
                 count++;
                 index++;
             }
