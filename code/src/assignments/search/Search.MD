@@ -29,7 +29,7 @@
 - [ ] Maximum Value at a Given Index in a Bounded Array
 - [ ] Koko Eating Bananas
 - [ ] Minimum Absolute Sum Difference
-- [ ] Search a 2D Matrix
+- [x] Search a 2D Matrix
 - [ ] Find a Peak Element II
 - [ ] Frequency of the Most Frequent Element
 - [ ] Find the Duplicate Number
@@ -45,3 +45,10 @@
 - [x] Find in Mountain Array
 - [ ] Count smaller number after Self
 - [ ] Divide Chocolate Problem
+
+### Other
+- [x] Ceiling of a number
+- [x] Floor of a number
+- [x] Search in Infinite array
+- [x] Search in 2D matrix boolean
+- [x] Search in row column sorted matrix
