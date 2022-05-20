@@ -12,6 +12,8 @@ public class Fibonacci {
 
         String series = fibonacci(num);
         System.out.println(series);
+
+        System.out.println(fib(10));
     }
 
     static String fibonacci(int range) {
@@ -27,5 +29,13 @@ public class Fibonacci {
         }
 
         return Arrays.toString(res);
+    }
+
+    static long fib(int n) {
+        double num;
+        double a = Math.pow((1 + Math.sqrt(5))/ 2, n);
+//        double b = Math.pow((1 - Math.sqrt(5))/ 2, n);
+        num = 1/Math.sqrt(5) * a;
+        return (long) num;
     }
 }
